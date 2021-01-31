@@ -2,7 +2,7 @@
 Marketing website for the IfElse Network
 
 ## Status
-This currently just has a temporary page so that visitors don't get linked to an epty page. We should eventualy replace this with a proper Marketing website.
+This is currently just a temporary page so that visitors don't get linked to an empty page. We should eventually replace this with a proper marketing website.
 
 ### Colours
-We need another branding colour, because white and purple are asociated with text because of our logo. I tried experimenting with a new one for the links, but it doesn't look too great. Can someone please try and find a better option?
+We need another branding colour, because white and purple are associated with text because of our logo. I tried experimenting with a new one for the links, but it doesn't look too great. Can someone please try and find a better option?
