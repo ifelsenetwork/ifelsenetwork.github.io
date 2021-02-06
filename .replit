@@ -1,2 +1,0 @@
-run = ""
-onBoot = "echo starting repl.it devmode webserver via heroku connection"
