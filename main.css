@@ -48,6 +48,11 @@ h1 {
     color: #ffffff;
 }
 
+p {
+    text-shadow: 0px 0px 4px #cdcdcd;
+    position: relative;
+}
+
 footer {
     margin-top: 10px;
     display: flex;
