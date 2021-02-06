@@ -19,10 +19,13 @@ body {
 }
 
 main {
+	position: relative;
+	animation: main1 4s ease-in-out alternate infinite;
     margin: auto;
     border: 1px solid #ffffff;
     border-radius: 20px;
     color: #fff;
+	background-color: #171717;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -36,7 +39,11 @@ h4 {
     margin-top: 8px;
     opacity: 0.8;
 }
-
+h1 {
+	position: relative;
+	text-shadow: 0px 0px 4px #cdcdcd;
+	animation: shake 10s ease-in-out alternate infinite, glow 5s alternate infinite;
+}
 .white {
     color: #ffffff;
 }
@@ -65,4 +72,27 @@ footer {
     background-color: white;
     color: #272727;
     transform: translateY(-2px);
+}
+@keyframes main1 {
+	0% {border-radius: 15px;}
+	50% {border-radius: 11px;}
+	100% {border-radius: 15px;}
+}
+@keyframes shake {
+	0% {left: 0vw; top: 0vh;}
+	10% {left: -0.125vw; top: 0.125vh;}
+	20% {left: 0.25vw; top: 0vh;}
+	30% {left: 0.125vw; top: -0.25vh;}
+	40% {left: -0.125vw; top: -0.25vh;}
+	50% {left: -0.25vw; top: -0.25vh;}
+	60% {left: 0.125vw; top: 0vh;}
+	70% {left: -0.5vw; top: -0.25vh;}
+	80% {left: 0.25vw; top: -0.25vh;}
+	90% {left: -0.125vw; top: 0vh;}
+	100% {left: 0vw; top: 0vh;}
+}
+@keyframes glow {
+	0% {text-shadow: 0px 0px 2px #cdcdcd;}
+	20% {text-shadow: 0px 0px 5px #cdcdcd;}
+	100% {text-shadow: 0px 0px 1px #cdcdcd;}
 }
