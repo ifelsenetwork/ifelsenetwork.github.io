@@ -40,7 +40,8 @@ h4 {
 	margin-top: 8px;
 	opacity: 0.8;
 }
-h1 a {
+.title-link {
+	display: inline-block;
 	color: #ffffff;
 	text-decoration: none;
 	position: relative;
@@ -48,7 +49,8 @@ h1 a {
 	animation: glow 5s alternate infinite;
 	transition: transform 200ms;
 }
-h1 a :hover {
+.title-link:hover,
+.title-link:focus {
 	transform: scale(1.2);
 	cursor: pointer;
 	animation: glow 5s alternate infinite;
