@@ -48,10 +48,14 @@ h1 {
 h1:hover {
 	transform: scale(1.2);
 	filter: drop-shadow(0px 0px 10px #ffff);
+	cursor: pointer;
+	/* reset any positionaing fromt the animation */
+	left: auto;
+	top: auto;
 }
 
 h5 {
-	text-shadow: 0px 0px 4px #cdcdcd;
+	text-shadow: 0px 0px 1px #cdcdcd;
 	position: relative;
 }
 
