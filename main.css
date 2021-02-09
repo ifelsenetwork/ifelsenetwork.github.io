@@ -21,7 +21,6 @@ body {
 
 main {
 	position: relative;
-	animation: main1 4s ease-in-out alternate infinite;
 	margin: auto;
 	border: 1px solid #ffffff;
 	border-radius: 20px;
@@ -42,19 +41,13 @@ h4 {
 }
 h1 {
 	position: relative;
-	text-shadow: 0px 0px 4px #cdcdcd;
-	animation: shake 10s ease-in-out alternate infinite,
-		glow 5s alternate infinite;
+	filter: drop-shadow(0px 0px 4px #fff2);
 	transition: transform 200ms;
+	transition: all 0.4s ease;
 }
 h1:hover {
 	transform: scale(1.2);
-
-	/* reset any positionaing fromt the animation */
-	left: auto;
-	top: auto;
-	/* no shake animation on hover, it looks bad */
-	animation: glow 5s alternate infinite;
+	filter: drop-shadow(0px 0px 10px #ffff);
 }
 
 h5 {
@@ -91,71 +84,4 @@ footer {
 	color: #272727;
 	transform: translateY(-2px);
 }
-@keyframes main1 {
-	0% {
-		border-radius: 15px;
-	}
-	50% {
-		border-radius: 11px;
-	}
-	100% {
-		border-radius: 15px;
-	}
-}
-@keyframes shake {
-	0% {
-		left: 0vw;
-		top: 0vh;
-	}
-	10% {
-		left: -0.175vw;
-		top: 0.175vh;
-	}
-	20% {
-		left: 0.75vw;
-		top: 0vh;
-	}
-	30% {
-		left: 0.175vw;
-		top: -0.75vh;
-	}
-	40% {
-		left: -0.175vw;
-		top: -0.75vh;
-	}
-	50% {
-		left: -0.75vw;
-		top: -0.75vh;
-	}
-	60% {
-		left: 0.175vw;
-		top: 0vh;
-	}
-	70% {
-		left: -0.5vw;
-		top: -0.75vh;
-	}
-	80% {
-		left: 0.75vw;
-		top: -0.75vh;
-	}
-	90% {
-		left: -0.175vw;
-		top: 0vh;
-	}
-	100% {
-		left: 0vw;
-		top: 0vh;
-	}
-}
-@keyframes glow {
-	0% {
-		text-shadow: 0px 0px 2px #cdcdcd;
-	}
-	20% {
-		text-shadow: 0px 0px 5px #cdcdcd;
-	}
-	100% {
-		text-shadow: 0px 0px 1px #cdcdcd;
-	}
-}
+
