@@ -40,19 +40,19 @@ h4 {
 	margin-top: 8px;
 	opacity: 0.8;
 }
-h1 {
+.title-link {
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
 	position: relative;
 	text-shadow: 0px 0px 4px #cdcdcd;
 	animation: glow 5s alternate infinite;
 	transition: transform 200ms;
 }
-h1:hover {
+.title-link:hover,
+.title-link:focus {
 	transform: scale(1.2);
 	cursor: pointer;
-	/* reset any positionaing fromt the animation */
-	left: auto;
-	top: auto;
-	/* no shake animation on hover, it looks bad */
 	animation: glow 5s alternate infinite;
 }
 
