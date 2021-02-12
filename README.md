@@ -1,8 +1,9 @@
 # 1F3L53.github.io
-Marketing website for the IfElse Network
+Temporary about page for the IfElse Network.
+https://about.ifelse.network
 
 ## Status
-This is currently just a temporary page so that visitors don't get linked to an empty page. We should eventually replace this with a proper marketing website.
-
-### Colors
-We need another branding colour, because white and purple are associated with text because of our logo. I tried experimenting with a new one for the links, but it doesn't look too great. Can someone please try and find a better option?
+We are currently accepting contributions! If you see something that can be imporved:
+- Fork this repository
+- Make your changes
+- Create a pull request, including a screenshot of what the page looks like with ALL of your changes applied.
