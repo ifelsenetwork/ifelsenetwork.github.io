@@ -1,4 +1,7 @@
 # 1F3L53.github.io
+
+> The repo needs to have this name otherwise stuff breaks
+
 Temporary about page for the IfElse Network.
 https://about.ifelse.network
 
