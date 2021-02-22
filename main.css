@@ -28,7 +28,8 @@ main {
 	color: white;
 	background-color: rgba(140,140,140,0.6);
 	backdrop-filter: blur(5px);
-	padding: 60px;
+	padding: 50px;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
