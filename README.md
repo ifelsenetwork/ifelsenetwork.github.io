@@ -14,4 +14,4 @@ We are currently accepting contributions! If you see something that can be impor
 ### Contributors (non-staff)
 When we launch, hese people will get a special profile badge as a token of our grattiude to them for volunteering their time to contriute to our projects.
 
-* @Hubza - Mariorly redesigning page, added link animations.
+* [@Hubza](https://github.com/Hubza "View @Hubza's github profile") - Majorly redesigned page, added link animations.
