@@ -26,7 +26,7 @@ main {
 	border: 1px solid #ffffff;
 	border-radius: 10px;
 	color: white;
-	background-color: rgba(140,140,140,0.6);
+	background-color: rgba(140,140,140,0.8);
 	backdrop-filter: blur(5px);
 	padding: 50px;
 	display: flex;
