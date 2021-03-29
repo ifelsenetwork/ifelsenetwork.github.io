@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="main.css?v=1" />
 		<script>
 			/* Sanity check for local development */
-			if (window.location.href.match("http")) {
+			if (window.location.href.match("http") && window.location.host.split(':')[0] !== '127.0.0.1' && window.location.host.indexOf('file:///') < 0) {
 				if (!window.location.href.match("https")) {
 					window.location.href = window.location.href.replace(
 						"http",
