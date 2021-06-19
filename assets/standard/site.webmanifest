@@ -1,0 +1,19 @@
+{
+	"name": "If Else Network",
+	"short_name": "If Else",
+	"icons": [
+		{
+			"src": "/assets/standard/android-chrome-192x192.png?v=3",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/assets/standard/android-chrome-512x512.png?v=3",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#90348c",
+	"background_color": "#90348c",
+	"display": "standalone"
+}
